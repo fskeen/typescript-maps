@@ -4,9 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maps</title>
+    <style>
+      #map {
+        position: inherit !important;
+        height: 100%;
+      }
+    </style>
   </head>
   <body>
-    <!-- Used posthtml and dotenv with parcel to hide the API key. -->
+    <div id="map"></div>
+
+    <!-- Used posthtml and dotenv with parcel to hide the Google API key. -->
     <script src="{{ API_KEY || '/' }}"></script>
     <script src="./src/index.ts"></script>
   </body>
