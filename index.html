@@ -6,6 +6,8 @@
     <title>Maps</title>
   </head>
   <body>
+    <!-- Used posthtml and dotenv with parcel to hide the API key. -->
+    <script src="{{ API_KEY || '/' }}"></script>
     <script src="./src/index.ts"></script>
   </body>
 </html>

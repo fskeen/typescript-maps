@@ -7,10 +7,27 @@
   resolved "https://registry.yarnpkg.com/@types/faker/-/faker-4.1.10.tgz#ec31466931086122b05be719d084989ffe3d6eb6"
   integrity sha512-Z1UXXNyxUcuu7CSeRmVizMgH7zVYiwfiTgXMnSTvsYDUnVt3dbMSpPdfG/H41IBiclgFGQJgLVdDFeinhhmWTg==
 
+dotenv@^8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
+  integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
+
 faker@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/faker/-/faker-4.1.0.tgz#1e45bbbecc6774b3c195fad2835109c6d748cc3f"
   integrity sha1-HkW7vsxndLPBlfrSg1EJxtdIzD8=
+
+fclone@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/fclone/-/fclone-1.0.11.tgz#10e85da38bfea7fc599341c296ee1d77266ee640"
+  integrity sha1-EOhdo4v+p/xZk0HClu4ddyZu5kA=
+
+posthtml-expressions@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/posthtml-expressions/-/posthtml-expressions-1.1.1.tgz#7663a1a5a39259dcad44b67c897c34eb420d942c"
+  integrity sha512-89Afc2rys3YCs/G+SxV3jVgWuQ/SSPujgYVIJj9raKkQjBbHn6RxmZpiJBbru/WEtVp+/s705DXCk4MfnvsJoQ==
+  dependencies:
+    fclone "^1.0.11"
 
 typescript@^3.8.3:
   version "3.8.3"
