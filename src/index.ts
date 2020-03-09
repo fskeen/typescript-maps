@@ -6,6 +6,6 @@ const company1 = new Company();
 const user1 = new User();
 const user2 = new User();
 const user3 = new User();
-const customMap = new CustomMap(company1.location.lat, company1.location.lng);
+const customMap = new CustomMap();
 
 customMap.addMarker(user1, user2, user3, company1);
