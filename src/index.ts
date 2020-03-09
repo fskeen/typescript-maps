@@ -4,4 +4,8 @@ import { CustomMap } from "./CustomMap";
 
 const company1 = new Company();
 const user1 = new User();
-new CustomMap(company1.location.lat, company1.location.long);
+const user2 = new User();
+const user3 = new User();
+const customMap = new CustomMap(company1.location.lat, company1.location.lng);
+
+customMap.addMarker(user1, user2, user3);
